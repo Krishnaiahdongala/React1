@@ -9,7 +9,7 @@ const EmojiSearching = () => {
   };
   return (
     <center>
-    <div>
+    <div  className="container">
       <h1>Emoji Searching </h1>
       <div>{emoji ? <Emoji unified={emoji} size={50}/> : null}</div>
       <EmojiPicker onEmojiClick={handleEmojiClick} />
