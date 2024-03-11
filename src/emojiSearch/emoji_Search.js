@@ -11,7 +11,7 @@ const EmojiSearching = () => {
   
     <center>
     <div className="container">
-      <h1>EMOJI SEARCH </h1>
+      <h1>EMOJI-SEARCH </h1>
       <div>{emoji ? <Emoji unified={emoji} size={50}/> : null}</div>
       <EmojiPicker onEmojiClick={handleEmojiClick} />
     </div>
